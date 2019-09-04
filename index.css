@@ -1,3 +1,21 @@
+html, body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;   
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+h3
+{
+    font-size: 20px;
+}
+
 .loader,
 .loader:before,
 .loader:after 
@@ -13,7 +31,7 @@
 
 .loader 
 {
-    color: #ffffff;
+    color: #ccc;
     font-size: 10px;
     margin: 80px auto;
     position: relative;
@@ -72,18 +90,3 @@
         box-shadow: 0 2.5em 0 0;
     }
 }
-
-/* a
-{
-    font-size: 20px;
-}
-
-p
-{
-    font-size: 
-}
-
-h5
-{
-
-} */
